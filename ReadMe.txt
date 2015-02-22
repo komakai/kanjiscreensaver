@@ -1,6 +1,6 @@
 KanjiScreenSaver 2
 
-This is a rewrite of my original Kanji ScreenSaver (still available at http;//www.japan-diary.com/TODO). The original was written (way back in 2004) in a combination of Visual Basic (the old pre-dotNet Visual Basic) and Visual C++ and used kanji data from Jim Breen's KanjiDic project.
+This is a rewrite of my original Kanji ScreenSaver (still available at http://www.japan-diary.com/kanji.html ). The original was written (way back in 2004) in a combination of Visual Basic (the old pre-dotNet Visual Basic) and Visual C++ and used kanji data from Jim Breen's KanjiDic project.
 The new version has been rewritten in C# and uses kanji data compiled by myself.
 
 Major Changes
@@ -11,7 +11,7 @@ It is now possible to fine tune which kanjis are displayed via an "Include" list
 The elapsed time been kanji changes is now configurable.
 
 License
-The C# source code for KanjiScreenSaver 2 is public domain and available at (http://TODO)
+The C# source code for KanjiScreenSaver 2 is public domain and available at (https://github.com/komakai/kanjiscreensaver)
 The kanji data used in KanjiScreenSaver 2 is copyright me Giles Payne.
 
 Giles Payne (GilesPayne(at)gmail.com)

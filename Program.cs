@@ -15,9 +15,9 @@ namespace KanjiScreenSaver
         [STAThread]
         static void Main(string[] args)
         {
+            LoadConfig();
             if (args.Length > 0)
             {
-                LoadConfig();
                 if (args[0].ToLower().Trim().Substring(0, 2) == "/s") //show
                 {
                     //run the screen saver
