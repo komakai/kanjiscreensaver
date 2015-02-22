@@ -1,0 +1,2 @@
+# kanjiscreensaver
+Kanji Screen Saver
