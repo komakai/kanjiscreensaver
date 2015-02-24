@@ -61,29 +61,26 @@ namespace KanjiScreenSaver
 
         static string LoadRegString(RegistryKey regKey, string key, string def)
         {
-            object obj = regKey.GetValue(key, def);
-            return (obj!=null) ? (string)obj : "";
+            object obj = (regKey!=null) ? regKey.GetValue(key, def) : null;
+            return (obj!=null) ? (string)obj : def;
         }
 
         static int LoadRegInt(RegistryKey regKey, string key, int def)
         {
-            object obj = regKey.GetValue(key);
+            object obj = (regKey!=null) ? regKey.GetValue(key) : null;
             return (obj!=null) ? (int)obj : def;
         }
 
         static void LoadConfig()
         {
             RegistryKey regKey = Registry.CurrentUser.OpenSubKey("KanjiScreenSaver\\Settings");
-            if (regKey != null)
-            {
-                string levelSetting = LoadRegString(regKey, "Levels", "100");
-                levels = levelSetting.Split(',');
-                includeKanjis = LoadRegString(regKey, "IncludeKanjis", "");
-                excludeKanjis = LoadRegString(regKey, "ExcludeKanjis", "");
-                fontName = LoadRegString(regKey, "FontName", "ＭＳ ゴシック");
-                fontFaceName = LoadRegString(regKey, "FontFaceName", "ＭＳ ゴシック");
-                duration = LoadRegInt(regKey, "Duration", 5000);
-            }
+            string levelSetting = LoadRegString(regKey, "Levels", "100");
+            levels = levelSetting.Split(',');
+            includeKanjis = LoadRegString(regKey, "IncludeKanjis", "");
+            excludeKanjis = LoadRegString(regKey, "ExcludeKanjis", "");
+            fontName = LoadRegString(regKey, "FontName", "ＭＳ ゴシック");
+            fontFaceName = LoadRegString(regKey, "FontFaceName", "ＭＳ ゴシック");
+            duration = LoadRegInt(regKey, "Duration", 5000);
         }
 
         //will show the screen saver
