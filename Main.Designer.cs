@@ -80,6 +80,8 @@
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
+            this.labelKanji = new System.Windows.Forms.Label();
+            this.labelMeaning = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -638,6 +640,26 @@
             this.label50.TabIndex = 49;
             this.label50.Tag = "keyword";
             // 
+            // labelKanji
+            // 
+            this.labelKanji.AutoSize = true;
+            this.labelKanji.ForeColor = System.Drawing.Color.White;
+            this.labelKanji.Location = new System.Drawing.Point(80, 113);
+            this.labelKanji.Name = "labelKanji";
+            this.labelKanji.Size = new System.Drawing.Size(0, 12);
+            this.labelKanji.TabIndex = 50;
+            // 
+            // labelMeaning
+            // 
+            this.labelMeaning.AutoSize = true;
+            this.labelMeaning.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelMeaning.ForeColor = System.Drawing.Color.White;
+            this.labelMeaning.Location = new System.Drawing.Point(115, 124);
+            this.labelMeaning.Name = "labelMeaning";
+            this.labelMeaning.Size = new System.Drawing.Size(28, 19);
+            this.labelMeaning.TabIndex = 51;
+            this.labelMeaning.Text = "亜";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -694,11 +716,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelMeaning);
+            this.Controls.Add(this.labelKanji);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.Main_Click);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Main_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Main_KeyDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
             this.ResumeLayout(false);
@@ -759,6 +782,8 @@
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label labelKanji;
+        private System.Windows.Forms.Label labelMeaning;
     }
 }
 

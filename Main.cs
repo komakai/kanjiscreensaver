@@ -125,6 +125,9 @@ namespace KanjiScreenSaver
             fontKeywordNormal = new Font(Program.fontName, keywordFontHeight, FontStyle.Regular);
             fontKeywordBold = new Font(Program.fontName, keywordFontHeight, FontStyle.Bold);
 
+            labelKanji.Font = fontKanji;
+            labelMeaning.Font = fontMeaning;
+
             int iControl = 0;
             foreach (Control control in Controls)
             {
@@ -227,23 +230,21 @@ namespace KanjiScreenSaver
             //currentKanji = rnd.Next(kanjis.Count);
             currentKanji = (currentKanji + 1) % kanjis.Count;
             Kanji kanji = kanjis[currentKanji];
-            Graphics g = CreateGraphics();
-            SizeF size;
             height = 0;
             width = 0;
-            string kanjiString = "" + kanji.kanji;
-            size = g.MeasureString(kanjiString, fontKanji);
-            heightKanji = height = size.Height;
-            widthKanji = width = size.Width;
-            string meaning = kanji.meaning;
-            size = g.MeasureString(meaning, fontMeaning);
-            heightMeaning = size.Height;
-            widthMeaning = size.Width;
-            height += heightMeaning + 4.0f ;
+            labelKanji.Text = kanji.kanji.ToString();
+            heightKanji = height = labelKanji.Height + 4.0f;
+            widthKanji = width = labelKanji.Width;
+            labelMeaning.Text = kanji.meaning;
+            heightMeaning = labelMeaning.Height + 4.0f;
+            widthMeaning = labelMeaning.Width;
+            height += heightMeaning;
             width = Math.Max(width, widthMeaning);
+
             Dictionary<KeyWord, float> mapKeywordDrawData = new Dictionary<KeyWord, float>();
 
             int iControl = 0;
+            float keywordHeight = 0.0f;
             foreach (KeyWord keyword in kanji.keywords) {
                 labels[iControl].Text = keyword.word + "・" + keyword.kana.Substring(0, keyword.kanaHighlightStart);
                 labels[iControl + 1].Text = keyword.kana.Substring(keyword.kanaHighlightStart, keyword.kanaHighlightLength);
@@ -253,50 +254,44 @@ namespace KanjiScreenSaver
                 float keywordWidth = 0.0f;
                 for (int nPart = 0; nPart <keywordParts ; nPart++ ) {
                     keywordWidth += labels[iControl + nPart].Width;
+                    keywordHeight = Math.Max(keywordHeight, labels[iControl + nPart].Height);
                 }
                 iControl += 5;
                 keywordWidth -= 28.0f;
                 mapKeywordDrawData[keyword] = keywordWidth;
                 width = Math.Max(width, keywordWidth);
-                height += keywordFontHeight*1.4f;
             }
+            keywordHeight += 4.0f;
+            height += keywordHeight * kanji.keywords.Count;
             for (int nIndx = 0; nIndx < labels.Count(); nIndx++) {
                 labels[nIndx].Visible = nIndx < iControl;
             }
             xOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Width - 40 - (int)width);
             yOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Height - 40 - (int)height);
             iControl = 0;
-            float drawYOffset = yOffset + heightKanji + heightMeaning + 4.0f;
-            foreach (KeyWord keyword in kanji.keywords) {
+            float drawYOffset = yOffset;
+            labelKanji.Top = (int)drawYOffset;
+            labelKanji.Left = (int)(xOffset + (width - widthKanji) / 2) + 5;
+            drawYOffset += heightKanji;
+            labelMeaning.Top = (int)drawYOffset;
+            labelMeaning.Left = (int)(xOffset + (width - widthMeaning) / 2);
+            drawYOffset += heightMeaning;
+            foreach (KeyWord keyword in kanji.keywords)
+            {
                 float keywordWidth = mapKeywordDrawData[keyword];
                 float keywordPartOffset = xOffset + (width - keywordWidth) / 2;
                 for (int nIndx = 0; nIndx < keywordParts; nIndx++) {
                     labels[iControl].Top = (int)(drawYOffset);
                     labels[iControl].Left = (int)(keywordPartOffset);
                     labels[iControl].BringToFront();
-                    keywordPartOffset += labels[iControl].Width - 7.0f;
+                    keywordPartOffset += labels[iControl].Width - 6.0f;
                     iControl++;
                 }
-                drawYOffset += keywordFontHeight * 1.4f;
+                drawYOffset += keywordHeight;
             }
-
-            Refresh();
         }
 
         private static bool[] bBold = new bool[] { false, true, false, true, false };
-
-        private void Main_Paint(object sender, PaintEventArgs e)
-        {
-            // Draw string to screen.
-            float drawYOffset = 0;
-            Kanji kanji = kanjis[currentKanji];
-            string kanjiString = "" + kanji.kanji;
-            string meaning = kanji.meaning;
-
-            e.Graphics.DrawString(kanjiString, fontKanji, Brushes.White, new PointF(xOffset + (width - widthKanji) / 2, yOffset ));
-            drawYOffset = heightKanji;
-            e.Graphics.DrawString(meaning, fontMeaning, Brushes.White, new PointF(xOffset + (width - widthMeaning) / 2, yOffset + drawYOffset ));
-        }
 
         public class KeywordDrawData
         {
@@ -307,7 +302,6 @@ namespace KanjiScreenSaver
         }
 
     }
-
 
     public class KeyWord
     {

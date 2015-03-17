@@ -33,7 +33,7 @@
     <keyword word="アマゾン川" kana="アマゾンがわ" romaji="amazongawa" meaning="Amazon River" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="4" />
   </kanji>
   <kanji level="100" char="校" meaning="school">
-    <keyword word="学校" kana="がっこう" romaji="gakkou" meaning="school" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="学校" kana="がっこう" romaji="gakkou" meaning="school" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
     <keyword word="高校" kana="こうこう" romaji="koukou" meaning="high school" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
     <keyword word="校長" kana="こうちょう" romaji="kouchou" meaning="headmaster" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
   </kanji>
@@ -51,7 +51,7 @@
     <keyword word="蒸気" kana="じょうき" romaji="jouki" meaning="vapour" kanaHighlightStart="3" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
   </kanji>
   <kanji level="100" char="休" meaning="rest">
-    <keyword word="休む" kana="やすむ" romaji="yasumu" meaning="take a break" />
+    <keyword word="休む" kana="やすむ" romaji="yasumu" meaning="take a break" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
     <keyword word="休暇" kana="きゅうか" romaji="kyuuka" meaning="day off" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
   </kanji>
   <kanji level="100" char="九" meaning="nine">
@@ -71,340 +71,551 @@
     <keyword word="空っぽ" kana="からっぽ" romaji="karappo" meaning="empty" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
     <keyword word="空港" kana="くうこう" romaji="kuukou" meaning="airport" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
   </kanji>
-  <kanji level="100" char="下" meaning="below, under">
-    <keyword word="下" kana="した" romaji="shita" meaning="below" />
-    <keyword word="靴下" kana="くつした" romaji="kutsushita" meaning="socks" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="5" />
-    <keyword word="下着" kana="したぎ" romaji="shitagi" meaning="underwear" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="5" romajiHighlightLength="2" />
-    <keyword word="上下" kana="じょうげ" romaji="jouge" meaning="fluctuate" kanaHighlightStart="3" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
-    <keyword word="下期" kana="しもき" romaji="shimoki" meaning="second fiscal half" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="見" meaning="see">
-    <keyword word="見る" kana="みる" romaji="miru" meaning="see" />
-    <keyword word="見物" kana="けんぶつ" romaji="kenbutsu" meaning="sightseeing" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="花見" kana="はなみ" romaji="hanami" meaning="cherry-blossom viewing" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="口" meaning="mouth">
-    <keyword word="口" kana="くち" romaji="kuchi" meaning="mouth" />
-    <keyword word="人口" kana="じんこう" romaji="jinkou" meaning="population" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
-    <keyword word="一口" kana="ひとくち" romaji="hitokuchi" meaning="one sip" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="目" meaning="eye">
-    <keyword word="目" kana="め" romaji="me" meaning="eye" />
-    <keyword word="項目" kana="こうもく" romaji="koumoku" meaning="item" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
-    <keyword word="目的" kana="もくてき" romaji="mokuteki" meaning="objective" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="目薬" kana="めぐすり" romaji="megusuri" meaning="eye drops" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="立" meaning="stand">
-    <keyword word="立つ" kana="たつ" romaji="tatsu" meaning="to stand" />
-    <keyword word="国立" kana="こくりつ" romaji="kokuritsu" meaning="national" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="立入禁止" kana="たちいりきんし" romaji="tachiirikinshi" meaning="No Entry" kanaHighlightStart="5" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="雨" meaning="rain">
-    <keyword word="雨" kana="あめ" romaji="ame" meaning="rain" />
-    <keyword word="小雨" kana="こさめ" romaji="kosame" meaning="light rain" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="子" meaning="child">
-    <keyword word="子供" kana="こども" romaji="kodomo" meaning="child" />
-    <keyword word="女子" kana="じょし" romaji="joshi" meaning="girls/women's" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="3" />
-    <keyword word="男子" kana="だんし" romaji="danshi" meaning="boys/men's" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="右" meaning="right">
-    <keyword word="右利き" kana="みぎきき" romaji="migikiki" meaning="right-handed" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="右側" kana="みぎがわ" romaji="migigawa" meaning="right side" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="右折" kana="うせつ" romaji="usetsu" meaning="right turn" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
-    <keyword word="左右" kana="さゆう" romaji="sayuu" meaning="from side to side" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="虫" meaning="insect">
-    <keyword word="虫" kana="むし" romaji="mushi" meaning="insect" />
-    <keyword word="てんとう虫" kana="てんとうむし" romaji="tentoumushi" meaning="ladybird" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="5" />
-    <keyword word="殺虫剤" kana="さっちゅうざい" romaji="satchuuzai" meaning="insecticide" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="3" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="左" meaning="left">
-    <keyword word="左利き" kana="ひだりきき" romaji="hidarikiki" meaning="left-handed" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
-    <keyword word="左側" kana="ひだりがわ" romaji="hidarigawa" meaning="left side" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
-    <keyword word="左折" kana="させつ" romaji="sasetsu" meaning="left turn" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="左右" kana="さゆう" romaji="sayuu" meaning="from side to side" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="三" meaning="three">
-    <keyword word="三" kana="さん" romaji="san" meaning="three" />
-    <keyword word="三角" kana="さんかく" romaji="sankaku" meaning="triangle" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="三次元" kana="さんじげん" romaji="sanjigen" meaning="3-D" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="四" meaning="four">
-    <keyword word="四" kana="よん" romaji="yon" meaning="four" />
-    <keyword word="四" kana="し" romaji="shi" meaning="four" />
-    <keyword word="四角い" kana="しかくい" romaji="shikakui" meaning="rectangular" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="四輪駆動" kana="よんりんくどう" romaji="yonrinkudou" meaning="four-wheel drive" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="耳" meaning="ear">
-    <keyword word="耳" kana="みみ" romaji="mimi" meaning="ear" />
-    <keyword word="初耳" kana="はつみみ" romaji="hatsumimi" meaning="first I've heard of it" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="4" />
-    <keyword word="耳鼻科" kana="じびか" romaji="jibika" meaning="nose/ear/throat clinic" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="玉" meaning="sphere">
-    <keyword word="シャボン玉" kana="シャボンだま" romaji="shabondama" meaning="soap bubble" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="4" />
-    <keyword word="玉ねぎ" kana="たまねぎ" romaji="tamanegi" meaning="onion" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="十" meaning="ten">
-    <keyword word="十" kana="じゅう" romaji="juu" meaning="ten" />
-    <keyword word="十字架" kana="じゅうじか" romaji="juujika" meaning="the Cross" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="出" meaning="leave">
-    <keyword word="出る" kana="でる" romaji="deru" meaning="to come/go out" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="出す" kana="だす" romaji="dasu" meaning="to take out" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="出口" kana="でぐち" romaji="deguchi" meaning="exit" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="出力" kana="しゅつりょく" romaji="shutsuryoku" meaning="output" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
-    <keyword word="出席" kana="しゅっせき" romaji="shusseki" meaning="attend" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="出かける" kana="でかける" romaji="dekakeru" meaning="to go out" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="手" meaning="hand">
-    <keyword word="手" kana="て" romaji="te" meaning="hand" />
-    <keyword word="手袋" kana="てぶくろ" romaji="tebukuro" meaning="glove" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="手動で" kana="しゅどうで" romaji="shudoude" meaning="by hand/manually" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="下手" kana="へた" romaji="heta" meaning="unskillful" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
-  </kanji>
-  <kanji level="100" char="小" meaning="small">
-    <keyword word="小さい" kana="ちいさい" romaji="chiisai" meaning="small" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="小学校" kana="しょうがっこう" romaji="shougakkou" meaning="primary school" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="小川" kana="おがわ" romaji="ogawa" meaning="stream" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
-  </kanji>
-  <kanji level="100" char="上" meaning="above, over">
-    <keyword word="テーブルの上" kana="テーブルのうえ" romaji="te-burunoue" meaning="on the table" kanaHighlightStart="5" kanaHighlightLength="2" romajiHighlightStart="9" romajiHighlightLength="2" />
-    <keyword word="上級" kana="じょうきゅう" romaji="joukyuu" meaning="advanced level" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="売り上げ" meaning="sales" kana="うりあげ" romaji="uriage" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="1" />
-    <keyword word="上期" kana="かみき" romaji="kamiki" meaning="first fiscal half" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="女" meaning="female">
-    <keyword word="女の子" kana="おんなのこ" romaji="onnanoko" meaning="girl" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="女性" kana="じょせい" romaji="josei" meaning="female" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="女王" kana="じょおう" romaji="joou" meaning="queen" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="人" meaning="person">
-    <keyword word="人" kana="ひと" romaji="hito" meaning="person" />
-    <keyword word="人口" kana="じんこう" romaji="jinkou" meaning="population" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="人形" kana="にんぎょう" romaji="ningyou" meaning="doll" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="人間" kana="にんげん" romaji="ningen" meaning="human being" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="一人" kana="ひとり" romaji="hitori" meaning="one person" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
-  </kanji>
-  <kanji level="100" char="水" meaning="water">
-    <keyword word="水" kana="みず" romaji="mizu" meaning="water" />
-    <keyword word="水素" kana="すいそ" romaji="suiso" meaning="hydrogen" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="鼻水" kana="はなみず" romaji="hanamizu" meaning="snot" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="4" />
-    <keyword word="水曜日" kana="すいようび" romaji="suiyoubi" meaning="Wednesday" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="正" meaning="correct">
-    <keyword word="正しい" kana="ただしい" romaji="tadashii" meaning="correct" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="正解" kana="せいかい" romaji="seikai" meaning="correct answer" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="お正月" kana="おしょうがつ" romaji="oshougatsu" meaning="New Year" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="赤" meaning="red">
-    <keyword word="赤" kana="あか" romaji="aka" meaning="red" />
-    <keyword word="赤ちゃん" kana="あかちゃん" romaji="akachan" meaning="baby" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="赤外線" kana="せきがいせん" romaji="sekigaisen" meaning="infrared" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="千" meaning="thousand yen note">
-    <keyword word="千円札" kana="せんえんさつ" romaji="senensatsu" meaning="thousand yen note" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="先" meaning="before">
-    <keyword word="先日" kana="せんじつ" romaji="senjitsu" meaning="the other day" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="先ほど" kana="さきほど" romaji="sakihodo" meaning="a short time ago" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="生" meaning="life">
-    <keyword word="先生" kana="せんせい" romaji="sensei" meaning="teacher, doctor" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
-    <keyword word="生徒" kana="せいと" romaji="seito" meaning="pupil" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="生ビール" kana="なまビール" romaji="namabi-ru" meaning="draft beer" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="生命保険" kana="せいめいほけん" romaji="seimeihoken" meaning="life insurance" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="生きている？" kana="いきている" romaji="ikiteiru" meaning="are you alive?" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
-  </kanji>
-  <kanji level="100" char="早" meaning="fast, early">
-    <keyword word="早い" kana="はやい" romaji="hayai" meaning="fast" />
-    <keyword word="早退" kana="そうたい" romaji="soutai" meaning="leave early" />
-  </kanji>
-  <kanji level="100" char="学" meaning="school">
-    <keyword word="大学" kana="だいがく" romaji="daigaku" meaning="university" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
-    <keyword word="学生" kana="がくせい" romaji="gakusei" meaning="student" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="大" meaning="big">
-    <keyword word="大きい" kana="おおきい" romaji="ookii" meaning="big" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="大洋" kana="たいよう" romaji="taiyou" meaning="ocean" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="大学" kana="だいがく" romaji="daigaku" meaning="university" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="大雨" kana="おおあめ" romaji="ooame" meaning="heavy rain" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="竹" meaning="bamboo">
-    <keyword word="竹" kana="たけ" romaji="take" meaning="bamboo" />
-    <keyword word="竹林" kana="たけばやし" romaji="takebayashi" meaning="bamboo thicket" />
-  </kanji>
-  <kanji level="100" char="男" meaning="boy">
-    <keyword word="男の子" kana="おとこのこ" romaji="otokonoko" meaning="boy" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="5" />
-    <keyword word="男性" kana="だんせい" romaji="dansei" meaning="male" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="中" meaning="centre">
-    <keyword word="中" kana="なか" romaji="naka" meaning="middle, centre" />
-    <keyword word="電話中" kana="でんわちゅう" romaji="denwachuu" meaning="on the phone" kanaHighlightStart="3" kanaHighlightLength="3" romajiHighlightStart="5" romajiHighlightLength="4" />
-    <keyword word="中国" kana="ちゅうごく" romaji="chuugoku" meaning="China" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="一日中" kana="いちにちじゅう" romaji="ichinichijuu" meaning="all day long" kanaHighlightStart="4" kanaHighlightLength="3" romajiHighlightStart="9" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="車" meaning="car">
-    <keyword word="車" kana="くるま" romaji="kuruma" meaning="car" />
-    <keyword word="車椅子" kana="くるまいす" romaji="kurumaisu" meaning="wheel-chair" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
-    <keyword word="駐車場" kana="ちゅうしゃじょう" romaji="chuushajou" meaning="car-park" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="天" meaning="heaven">
-    <keyword word="天国" kana="てんごく" romaji="tengoku" meaning="paradise" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="天才" kana="てんさい" romaji="tensai" meaning="genius" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="一" meaning="one">
-    <keyword word="一" kana="いち" romaji="ichi" meaning="one" />
-    <keyword word="統一化" kana="とういつか" romaji="touitsuka" meaning="unify" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
-    <keyword word="一杯飲みましょう" kana="いっぱいのみましょう" romaji="ippainomimashou" meaning="let's go for a drink" kanaHighlightStart="5" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="年" meaning="year">
-    <keyword word="年" kana="ねん" romaji="nen" meaning="year" />
-    <keyword word="年末" kana="ねんまつ" romaji="nenmatsu" meaning="year-end" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="年寄り" kana="としより" romaji="toshiyori" meaning="the elderly" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="入" meaning="enter">
-    <keyword word="入る" kana="はいる" romaji="hairu" meaning="to enter" />
-    <keyword word="入れる" kana="いれる" romaji="ireru" meaning="to put in" />
-    <keyword word="入口" kana="いりぐち" romaji="iriguchi" meaning="entrance" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="入力" kana="にゅうりょく" romaji="nyuuryoku" meaning="input" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="白" meaning="white">
-    <keyword word="白い" kana="しろい" romaji="shiroi" meaning="white" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-    <keyword word="白鳥" kana="はくちょう" romaji="hakuchou" meaning="swan" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="面白い" kana="おもしろい" romaji="omoshiroi" meaning="funny" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="火" meaning="fire">
-    <keyword word="火をつける" kana="ひをつける" romaji="hiwotsukeru" meaning="light a fire" />
-    <keyword word="火星人" kana="かせいじん" romaji="kaseijin" meaning="Martian" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="花火" kana="はなび" romaji="hanabi" meaning="fireworks" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="2" />
-    <keyword word="火曜日" kana="かようび" romaji="kayoubi" meaning="Tuesday" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="力" meaning="power, strength">
-    <keyword word="馬力" kana="ばりき" romaji="bariki" meaning="horse-power" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="4" />
-    <keyword word="協力" kana="きょうりょく" romaji="kyouryoku" meaning="co-operation" kanaHighlightStart="3" kanaHighlightLength="3" romajiHighlightStart="4" romajiHighlightLength="5" />
-    <keyword word="力" kana="ちから" romaji="chikara" meaning="strength" />
-  </kanji>
-  <kanji level="100" char="日" meaning="day">
-    <keyword word="本日" kana="ほんじつ" romaji="honjitsu" meaning="today" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
-    <keyword word="日焼け" kana="ひやけ" romaji="hiyake" meaning="sunburn" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="日付" kana="ひづけ" romaji="hidsuke" meaning="date" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="日曜日" kana="にちようび" romaji="nichiyoubi" meaning="Sunday" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="山" meaning="mountain">
-    <keyword word="山" kana="やま" romaji="yama" meaning="mountain" />
-    <keyword word="山登り" kana="やまのぼり" romaji="yamanobori" meaning="mountain-climbing" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="富士山" kana="ふじさん" romaji="fujisan" meaning="Mount Fuji" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="文" meaning="literature">
-    <keyword word="文化" kana="ぶんか" romaji="bunka" meaning="culture" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="文字" kana="もじ" romaji="moji" meaning="character" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="王" meaning="king">
-    <keyword word="王さま" kana="おうさま" romaji="ousama" meaning="king" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="法王" kana="ほうおう" romaji="houou" meaning="the Pope" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="月" meaning="moon, month">
-    <keyword word="お月様" kana="おつきさま" romaji="otsukisama" meaning="the moon" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="5" />
-    <keyword word="満月" kana="まんげつ" romaji="mangetsu" meaning="full moon" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
-    <keyword word="月極" kana="つきぎめ" romaji="tsukigime" meaning="monthly (fee)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-    <keyword word="月曜日" kana="げつようび" romaji="getsuyoubi" meaning="Monday" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-  </kanji>
-  <kanji level="100" char="名" meaning="name">
-    <keyword word="名称" kana="めいしょう" romaji="meishou" meaning="name" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="名前" kana="なまえ" romaji="namae" meaning="person's name" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="有名" kana="ゆうめい" romaji="yuumei" meaning="famous" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="木" meaning="tree">
-    <keyword word="木" kana="き" romaji="ki" meaning="tree" />
-    <keyword word="木材" kana="もくざい" romaji="mokuzai" meaning="wood" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="木曜日" kana="もくようび" romaji="mokuyoubi" meaning="Thursday" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="字" meaning="character">
-    <keyword word="文字" kana="もじ" romaji="moji" meaning="character" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="2" />
-    <keyword word="漢字" kana="かんじ" romaji="kanji" meaning="kanji" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
-    <keyword word="ローマ字" kana="ローマじ" romaji="ro-maji" meaning="Latin alphabet" kanaHighlightStart="3" kanaHighlightLength="1" romajiHighlightStart="5" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="夕" meaning="evening">
-    <keyword word="夕方" kana="ゆうがた" romaji="yuugata" meaning="evening" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="夕焼け" kana="ゆうやけ" romaji="yuuyake" meaning="sunset" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="田" meaning="field">
-    <keyword word="油田" kana="ゆでん" romaji="yuden" meaning="oil field" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
-    <keyword word="山田" kana="やまだ" romaji="yamada" meaning="Yamada (surname)" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="林" meaning="forest">
-    <keyword word="森林" kana="しんりん" romaji="shinrin" meaning="woods" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
-    <keyword word="林業" kana="りんぎょう" romaji="ringyou" meaning="forestry" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="林" kana="はやし" romaji="hayashi" meaning="Hayashi (surname)" />
-  </kanji>
-  <kanji level="100" char="貝" meaning="shellfish">
-    <keyword word="貝" kana="かい" romaji="kai" meaning="shellfish" />
-    <keyword word="貝殻" kana="かいがら" romaji="kaigara" meaning="shell" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="五" meaning="five">
-    <keyword word="五" kana="ご" romaji="go" meaning="five" />
-    <keyword word="五輪" kana="ごりん" romaji="gorin" meaning="the Olympics" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="糸" meaning="thread">
-    <keyword word="糸" kana="いと" romaji="ito" meaning="thread" />
-    <keyword word="縫合糸" kana="ほうごうし" romaji="hougoushi" meaning="stitches" kanaHighlightStart="4" kanaHighlightLength="1" romajiHighlightStart="6" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="七" meaning="seven">
-    <keyword word="七" kana="なな" romaji="nana" meaning="seven" />
-    <keyword word="七" kana="しち" romaji="shichi" meaning="seven" />
-    <keyword word="七角形" kana="しちかっけい" romaji="shichikakkei" meaning="heptagon" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="七夕祭り" kana="たなばた" romaji="tanabata" meaning="Star Festival (7th July)" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
-  </kanji>
-  <kanji level="100" char="森" meaning="woods">
-    <keyword word="森" kana="もり" romaji="mori" meaning="woods" />
-    <keyword word="森林" kana="しんりん" romaji="shinrin" meaning="woods" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="青" meaning="blue or green">
-    <keyword word="青白い" kana="あおじろい" romaji="aojiroi" meaning="pale" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="青信号" kana="あおしんごう" romaji="aoshingou" meaning="green light" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="青空" kana="あおぞら" romaji="aozora" meaning="clear sky" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="青少年" kana="せいしょうねん" romaji="seishounen" meaning="youth" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="石" meaning="stone">
-    <keyword word="石" kana="いし" romaji="ishi" meaning="stone" />
-    <keyword word="宝石" kana="ほうせき" romaji="houseki" meaning="precious stone" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="草" meaning="grass">
-    <keyword word="草" kana="くさ" romaji="kusa" meaning="grass" />
-    <keyword word="雑草" kana="ざっそう" romaji="zassou" meaning="weed" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="村" meaning="">
-    <keyword word="村" kana="むら" romaji="mura" meaning="village" />
-    <keyword word="選手村" kana="せんしゅむら" romaji="senshumura" meaning="athlete's village" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="4" />
-    <keyword word="村会" kana="そんかい" romaji="sonkai" meaning="village assembly" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-  </kanji>
-  <kanji level="100" char="町" meaning="town">
-    <keyword word="下町" kana="したまち" romaji="shitamachi" meaning="down town" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="5" />
-    <keyword word="町長" kana="ちょうちょう" romaji="chouchou" meaning="mayor" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-  </kanji>
-  <kanji level="100" char="土" meaning="earth, soil">
-    <keyword word="土" kana="つち" romaji="tsuchi" meaning="earth, soil" />
-    <keyword word="土地" kana="とち" romaji="tochi" meaning="ground" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="土曜日" kana="どようび" romaji="doyoubi" meaning="Saturday" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="二" meaning="two">
-    <keyword word="二" kana="に" romaji="ni" meaning="two" />
-    <keyword word="二人" kana="ふたり" romaji="futari" meaning="two people" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
-    <keyword word="二度とないチャンス" kana="にどとないチャンス" romaji="nidotonaichansu" meaning="once in a life time chance" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="八" meaning="eight">
-    <keyword word="八" kana="はち" romaji="hachi" meaning="eight" />
-    <keyword word="八角形" kana="はっかっけい" romaji="hakkakkei" meaning="octagon" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
-    <keyword word="八百屋" kana="やおや" romaji="yaoya" meaning="greengrocer" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
-  </kanji>
-  <kanji level="100" char="百" meaning="hundred">
-    <keyword word="百" kana="ひゃく" romaji="hyaku" meaning="hundred" />
-    <keyword word="百科事典" kana="ひゃっかじてん" romaji="hyakkajiten" meaning="encyclopedia" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
-    <keyword word="八百屋" kana="やおや" romaji="yaoya" meaning="greengrocer" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="1" />
-  </kanji>
-  <kanji level="100" char="六" meaning="six">
-    <keyword word="六" kana="ろく" romaji="roku" meaning="six" />
-    <keyword word="六本木" kana="ろっぽんぎ" romaji="roppongi" meaning="Roppongi (place name)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  <kanji level="90" char="黄" meaning="yellow">
+    <keyword word="黄色" kana="きいろ" romaji="kiiro" meaning="yellow" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="硫黄" kana="いおう" romaji="iou" meaning="sulphur" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="90" char="止" meaning="stop">
+    <keyword word="止まれ" kana="とまれ" romaji="tomare" meaning="Stop!" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="一時停止" kana="いちじていし" romaji="ichijiteishi" meaning="pause" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="3" />
+    <keyword word="中止" kana="ちゅうし" romaji="chuushi" meaning="suspend" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="90" char="切" meaning="sold out">
+    <keyword word="売り切り" kana="うりきり" romaji="urikiri" meaning="sold out" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
+    <keyword word="切断" kana="せつだん" romaji="setsudan" meaning="disconnect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
+    <keyword word="切り取り" kana="きりとり" romaji="kiritori" meaning="cut" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="90" char="顔" meaning="face">
+    <keyword word="顔" kana="かお" romaji="kao" meaning="face" />
+    <keyword word="笑顔" kana="えがお" romaji="egao" meaning="welcoming face" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="3" />
+    <keyword word="顔色" kana="がんしょく" romaji="ganshoku" meaning="complexion" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="90" char="絵" meaning="drawing">
+    <keyword word="絵本" kana="えほん" romaji="ehon" meaning="picture book" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="絵描き" kana="えかき" romaji="ekaki" meaning="drawing" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="90" char="遠" meaning="far">
+    <keyword word="遠い" kana="とおい" romaji="tooi" meaning="far" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="遠足" kana="えんそく" romaji="ensoku" meaning="excursion" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="90" char="寺" meaning="temple">
+    <keyword word="お寺" kana="おてら" romaji="otera" meaning="temple" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="4" />
+    <keyword word="寺社" kana="じしゃ" romaji="jisha" meaning="temples and shrines" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="90" char="父" meaning="father">
+    <keyword word="父親" kana="ちちおや" romaji="chichioya" meaning="father" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="6" />
+    <keyword word="お父さん" kana="おとうさん" romaji="otousan" meaning="dad" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="3" />
+    <keyword word="祖父母" kana="そふぼ" romaji="sofubo" meaning="grandparents" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="90" char="親" meaning="parent">
+    <keyword word="親" kana="おや" romaji="oya" meaning="parent" />
+    <keyword word="親会社" kana="おやがいしゃ" romaji="oyagaisha" meaning="parent company" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="親しい" kana="したしい" romaji="shitashii" meaning="intimate" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="90" char="声" meaning="voice">
+    <keyword word="声" kana="こえ" romaji="koe" meaning="voice" />
+    <keyword word="音声認識" kana="おんせいにんしき" romaji="onseininshiki" meaning="voice recognition" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="鳴き声" kana="なきごえ" romaji="nakigoe" meaning="animal's cry" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="90" char="会" meaning="meet">
+    <keyword word="会う" kana="あう" romaji="au" meaning="to meet" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="出会い" kana="であい" romaji="deai" meaning="encounter" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="1" />
+    <keyword word="電話会議" kana="でんわかいぎ" romaji="denwakaigi" meaning="tele-conference" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="90" char="外" meaning="outside">
+    <keyword word="外" kana="そと" romaji="soto" meaning="outside" />
+    <keyword word="外国" kana="がいこく" romaji="gaikoku" meaning="foreign country" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="席を外している" kana="せきをはずしている" romaji="sekiwohazushiteiru" meaning="be away from one's seat" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="4" />
+    <keyword word="外れ" kana="はずれ" romaji="hazure" meaning="losing ticket" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="90" char="社" meaning="temple">
+    <keyword word="神社" kana="じんじゃ" romaji="jinja" meaning="shrine" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+    <keyword word="会社" kana="かいしゃ" romaji="kaisha" meaning="company" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="90" char="食" meaning="eat">
+    <keyword word="食べる" kana="たべる" romaji="taberu" meaning="to eat" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="食べ物" kana="たべもの" romaji="tabemono" meaning="food" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="外食" kana="がいしょく" romaji="gaishoku" meaning="eat out" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="3" romajiHighlightLength="5" />
+    <keyword word="食器" kana="しょっき" romaji="shokki" meaning="cutlery" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="食い付く" kana="くいつく" romaji="kuitsuku" meaning="to snap at" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="悪" meaning="bad">
+    <keyword word="悪い" kana="わるい" romaji="warui" meaning="bad" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="悪魔" kana="あくま" romaji="akuma" meaning="devil" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="悪夢" kana="あくむ" romaji="akumu" meaning="nightmare" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="悪いもの" kana="わるいもの" romaji="waruimono" meaning="baddie" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="80" char="味" meaning="flavour">
+    <keyword word="味わう" kana="あじわう" romaji="ajiwau" meaning="to taste" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="意味" kana="いみ" romaji="imi" meaning="meaning" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="1" romajiHighlightLength="2" />
+    <keyword word="味" kana="あじ" romaji="aji" meaning="taste" />
+  </kanji>
+  <kanji level="80" char="暗" meaning="dark">
+    <keyword word="暗い" kana="くらい" romaji="kurai" meaning="dark" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="暗証番号" kana="あんしょうばんごう" romaji="anshoubangou" meaning="PIN number" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="暗号化" kana="あんごうか" romaji="angouka" meaning="encryption" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="安" meaning="cheap, easy">
+    <keyword word="安い" kana="やすい" romaji="yasui" meaning="cheap" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="安全" kana="あんぜん" romaji="anzen" meaning="safe" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="委" meaning="committee">
+    <keyword word="委ねる" kana="ゆだねる" romaji="yudaneru" meaning="to entrust" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="委員" kana="いいん" romaji="iin" meaning="committee member" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="委員会" kana="いいんかい" romaji="iinkai" meaning="committee meeting" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="80" char="医" meaning="medicine">
+    <keyword word="医者" kana="いしゃ" romaji="isha" meaning="doctor" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="医療" kana="いりょう" romaji="iryou" meaning="medical treatment" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="80" char="飲" meaning="drink">
+    <keyword word="飲む" kana="のむ" romaji="nomu" meaning="to drink" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="飲み物" kana="のみもの" romaji="nomimono" meaning="drink" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="飲酒" kana="いんしゅ" romaji="inshu" meaning="consume alcohol" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="飲み込む" kana="のみこむ" romaji="nomikomu" meaning="to swallow" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="打" meaning="hit">
+    <keyword word="打つ" kana="うつ" romaji="utsu" meaning="to hit" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="打ち合わせ" kana="うちあわせ" romaji="uchiawase" meaning="meeting" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="安打" kana="あんだ" romaji="anda" meaning="hit (baseball)" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="酒" meaning="alcohol">
+    <keyword word="お酒" kana="おさけ" romaji="osake" meaning="alcoholic drink" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="4" />
+    <keyword word="梅酒" kana="うめしゅ" romaji="umeshu" meaning="plum liqueur" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+    <keyword word="居酒屋" kana="いざかや" romaji="izakaya" meaning="Japanese style pub/restaurant" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="80" char="運" meaning="carry">
+    <keyword word="運ぶ" kana="はこぶ" romaji="hakobu" meaning="to carry" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="運用" kana="うんよう" romaji="unyou" meaning="operation" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="運転士" kana="うんてんし" romaji="untenshi" meaning="driver" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="庭" meaning="garden">
+    <keyword word="庭" kana="にわ" romaji="niwa" meaning="garden" />
+    <keyword word="園庭" kana="えんてい" romaji="entei" meaning="playground" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="家庭" kana="かてい" romaji="katei" meaning="household" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="80" char="筆" meaning="pen">
+    <keyword word="鉛筆" kana="えんぴつ" romaji="enpitsu" meaning="pencil" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="5" />
+    <keyword word="筆箱" kana="ふでばこ" romaji="fudebako" meaning="pencil case" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="筆記用具" kana="ひっきようぐ" romaji="hikkiyougu" meaning="writing materials" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="80" char="州" meaning="state">
+    <keyword word="欧州" kana="おうしゅう" romaji="oushuu" meaning="Europe" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="4" />
+    <keyword word="カリフォルニア州" kana="かりふぉるにあしゅう" romaji="karifuruniashuu" meaning="California state" kanaHighlightStart="7" kanaHighlightLength="3" romajiHighlightStart="11" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="80" char="横" meaning="horizontal">
+    <keyword word="横" kana="よこ" romaji="yoko" meaning="horizontal" />
+    <keyword word="横断" kana="おうだん" romaji="oudan" meaning="cross the road" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="横浜" kana="よこはま" romaji="yokohama" meaning="Yokohama (place name)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="横方向" kana="よこほうこう" romaji="yokohoukou" meaning="landscape (page layout)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="80" char="客" meaning="guest, customer">
+    <keyword word="お客様" kana="おきゃくさま" romaji="okyakusama" meaning="customer" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="5" />
+    <keyword word="顧客" kana="こきゃく" romaji="kokyaku" meaning="customer" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="80" char="屋" meaning="room">
+    <keyword word="部屋" kana="へや" romaji="heya" meaning="room" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="2" romajiHighlightLength="2" />
+    <keyword word="屋上" kana="おくじょう" romaji="okujou" meaning="rooftop" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="3" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="70" char="愛" meaning="love">
+    <keyword word="愛する" kana="あいする" romaji="aisuru" meaning="to love" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="愛しい" kana="いとしい" romaji="itoshii" meaning="beloved" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="70" char="以" meaning="relative to">
+    <keyword word="以外" kana="いがい" romaji="igai" meaning="with the exception of" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="以上" kana="いじょう" romaji="ijou" meaning="this is all" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="以降" kana="いこう" romaji="ikou" meaning="and thereafter" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="以ての他" kana="もってのほか" romaji="mottenohoka" meaning="absolutely unthinkable" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="70" char="停" meaning="stop">
+    <keyword word="一時停止" kana="いちじていし" romaji="ichijiteishi" meaning="temporarily suspended" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="3" />
+    <keyword word="各駅停車" kana="かくえきていしゃ" romaji="kakuekiteisha" meaning="stopping train" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="7" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="70" char="衣" meaning="clothing">
+    <keyword word="衣服" kana="いふく" romaji="ifuku" meaning="clothes" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="衣装" kana="いしょう" romaji="ishou" meaning="costume" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="70" char="胃" meaning="stomach">
+    <keyword word="胃袋" kana="いぶくろ" romaji="ibukuro" meaning="stomach" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="胃癌" kana="いがん" romaji="igan" meaning="stomach cancer" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="70" char="刷" meaning="print">
+    <keyword word="印刷" kana="いんさつ" romaji="insatsu" meaning="print" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="70" char="印" meaning="mark">
+    <keyword word="印象" kana="いんしょう" romaji="inshou" meaning="impression" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="矢印" kana="やじるし" romaji="yajirushi" meaning="arrow symbol" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="7" />
+    <keyword word="印鑑" kana="いんかん" romaji="inkan" meaning="seal" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="70" char="付" meaning="attach">
+    <keyword word="付く" kana="つく" romaji="tsuku" meaning="to attach" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="受付" kana="うけつけ" romaji="uketsuke" meaning="reception" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
+    <keyword word="添付" kana="てんぷ" romaji="tenpu" meaning="attachment" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="70" char="英" meaning="England">
+    <keyword word="英語" kana="えいご" romaji="eigo" meaning="English language" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="英雄" kana="えいゆう" romaji="eiyuu" meaning="hero" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="70" char="栄" meaning="prosper">
+    <keyword word="栄える" kana="さかえる" romaji="sakaeru" meaning="to prosper" />
+    <keyword word="栄養" kana="えいよう" romaji="eiyou" meaning="nutrition" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="繁栄" kana="はんえい" romaji="hanei" meaning="prosperity" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="70" char="養" meaning="nourish">
+    <keyword word="養う" kana="やしなう" romaji="yashinau" meaning="to bring up" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="7" />
+    <keyword word="栄養" kana="えいよう" romaji="eiyou" meaning="nutrition" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="養子" kana="ようし" romaji="youshi" meaning="adopted child" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="70" char="笑" meaning="laugh">
+    <keyword word="笑う" kana="わらう" romaji="warau" meaning="to laugh" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="笑顔" kana="えがお" romaji="egao" meaning="welcoming face" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="微笑む" kana="ほほえむ" romaji="hohoemu" meaning="to smile" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="60" char="夢" meaning="dream">
+    <keyword word="夢" kana="ゆめ" romaji="yume" meaning="dream" />
+    <keyword word="悪夢" kana="あくむ" romaji="akumu" meaning="nightmare" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
+    <keyword word="夢が叶う" kana="ゆめがかなう" romaji="yumegakanau" meaning="to have a dream come true" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="60" char="圧" meaning="pressure">
+    <keyword word="圧縮" kana="あっしゅく" romaji="asshuku" meaning="compress" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="圧倒的" kana="あっとうてき" romaji="attouteki" meaning="overwhelming" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="圧力" kana="あつりょく" romaji="atsuryoku" meaning="pressure" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="60" char="程" meaning="extent">
+    <keyword word="ある程度" kana="あるていど" romaji="aruteido" meaning="to a certain extent" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+    <keyword word="中程" kana="なかほど" romaji="nakahodo" meaning="midway" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="60" char="件" meaning="item">
+    <keyword word="案件" kana="あんけん" romaji="anken" meaning="item for consideration" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="件名" kana="けんめい" romaji="kenmei" meaning="subject title" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="事件" kana="じけん" romaji="jiken" meaning="case" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="60" char="移" meaning="move">
+    <keyword word="移す" kana="うつす" romaji="utsusu" meaning="to shift" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="移動" kana="いどう" romaji="idou" meaning="to move" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="60" char="舎" meaning="building">
+    <keyword word="田舎" kana="いなか" romaji="inaka" meaning="countryside" />
+    <keyword word="園舎" kana="えんしゃ" romaji="ensha" meaning="kindergarten (building)" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="羊舎" kana="ひつじしゃ" romaji="hitsujisha" meaning="sheepfold" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="7" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="60" char="永" meaning="eternal">
+    <keyword word="永い" kana="ながい" romaji="nagai" meaning="a long time" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="永遠" kana="えいえん" romaji="eien" meaning="eternity" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="永住権" kana="えいじゅうけん" romaji="eijuuken" meaning="permanent residence" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="60" char="営" meaning="conduct business">
+    <keyword word="営業中" kana="えいぎょうちゅう" romaji="eigyouchuu" meaning="open for business" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="営業部" kana="えいぎょうぶ" romaji="eigyoubu" meaning="sales department" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="経営" kana="けいえい" romaji="keiei" meaning="management" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="60" char="像" meaning="statue, image">
+    <keyword word="映像" kana="えいぞう" romaji="eizou" meaning="video recording" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="仏像" kana="ぶつぞう" romaji="butsuzou" meaning="statue of Buddha" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="60" char="液" meaning="liquid">
+    <keyword word="液体" kana="えきたい" romaji="ekitai" meaning="liquid" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="血液" kana="けつえき" romaji="ketsueki" meaning="blood" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="50" char="棒" meaning="rod, stick">
+    <keyword word="棒" kana="ぼう" romaji="bou" meaning="stick" />
+    <keyword word="鉄棒" kana="てつぼう" romaji="tetsubou" meaning="horizontal bar (gymnastics)" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+    <keyword word="泥棒" kana="どろぼう" romaji="dorobou" meaning="thief" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="50" char="装" meaning="attire">
+    <keyword word="衣装" kana="いしょう" romaji="ishou" meaning="costume" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="4" />
+    <keyword word="実装" kana="じっそう" romaji="jissou" meaning="implementation" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="変装" kana="へんそう" romaji="hensou" meaning="disguise" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+    <keyword word="装う" kana="よそおう" romaji="yosoou" meaning="to dress" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="50" char="異" meaning="uncommon">
+    <keyword word="異常" kana="いじょう" romaji="ijou" meaning="abnormality" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="異議" kana="いぎ" romaji="igi" meaning="objection" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="異論" kana="いろん" romaji="iron" meaning="differing opinion" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="50" char="宇" meaning="universe, space">
+    <keyword word="宇宙" kana="うちゅう" romaji="uchuu" meaning="universe, space" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="宇宙飛行士" kana="うちゅうひこうし" romaji="uchuuhikoushi" meaning="astronaut" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="50" char="宙" meaning="universe, space">
+    <keyword word="宇宙" kana="うちゅう" romaji="uchuu" meaning="universe, space" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="4" />
+    <keyword word="宇宙飛行士" kana="うちゅうひこうし" romaji="uchuuhikoushi" meaning="astronaut" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="50" char="裏" meaning="back">
+    <keyword word="裏道" kana="うらみち" romaji="uramichi" meaning="back roads" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="裏側" kana="うらがわ" romaji="uragawa" meaning="the reverse side" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="50" char="映" meaning="reflect, project">
+    <keyword word="映す" kana="うつす" romaji="utsusu" meaning="to reflect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="映画" kana="えいが" romaji="eiga" meaning="film" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="反映" kana="はんえい" romaji="hanei" meaning="reflection" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="50" char="奏" meaning="perform music">
+    <keyword word="奏でる" kana="かなでる" romaji="kanaderu" meaning="to play an instrument" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="演奏" kana="えんそう" romaji="ensou" meaning="musical performance" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="3" />
+    <keyword word="四重奏" kana="しじゅうそう" romaji="shijuusou" meaning="quartet" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="3" />
+    <keyword word="協奏曲" kana="きょうそうきょく" romaji="kyousoukyoku" meaning="concerto" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="50" char="延" meaning="stretch">
+    <keyword word="延ばす" kana="のばす" romaji="nobasu" meaning="to postpose" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="延長" kana="えんちょう" romaji="enchou" meaning="extension" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="延び延びになる" kana="のびのびになる" romaji="nobinobininaru" meaning="to drag out" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="50" char="班" meaning="team, group">
+    <keyword word="班" kana="はん" romaji="han" meaning="team, group" />
+    <keyword word="捜査班" kana="そうさはん" romaji="sousahan" meaning="crime squad" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="50" char="腹" meaning="stomach">
+    <keyword word="お腹がすく" kana="おなかがすく" romaji="onakagasuku" meaning="to become hungry" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="4" />
+    <keyword word="裏腹" kana="うらはら" romaji="urahara" meaning="contrary" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
+    <keyword word="腹痛" kana="はらいた" romaji="haraita" meaning="stomach ache" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="空腹" kana="くうふく" romaji="kuufuku" meaning="empty stomach" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="40" char="仰" meaning="face upwards">
+    <keyword word="仰向け" kana="あおむけ" romaji="aomuke" meaning="facing upwards" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="信仰" kana="しんこう" romaji="shinkou" meaning="religious faith" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+    <keyword word="仰天" kana="ぎょうてん" romaji="gyouten" meaning="amazement" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="40" char="威" meaning="intimidate">
+    <keyword word="威嚇" kana="いかく" romaji="ikaku" meaning="intimidation" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="脅威" kana="きょうい" romaji="kyoui" meaning="danger" kanaHighlightStart="3" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="40" char="依" meaning="reliant">
+    <keyword word="依存性" kana="いぞんせい" romaji="izonsei" meaning="dependency" />
+    <keyword word="依頼" kana="いらい" romaji="irai" meaning="request" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="40" char="壱" meaning="one">
+    <keyword word="壱" kana="いち" romaji="ichi" meaning="one (in contracts/legal documents)" />
+  </kanji>
+  <kanji level="40" char="芋" meaning="potato">
+    <keyword word="芋ほり" kana="いもほり" romaji="imohori" meaning="digging for potatoes" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="じゃが芋" kana="じゃがいも" romaji="jagaimo" meaning="potato" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="40" char="隠" meaning="hide">
+    <keyword word="隠れる" kana="かくれる" romaji="kakureru" meaning="to hide" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="隠蔽" kana="いんぺい" romaji="inpei" meaning="concealment" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="隠遁" kana="いんとん" romaji="inton" meaning="seclusion" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="40" char="響" meaning="echo, impact">
+    <keyword word="影響" kana="えいきょう" romaji="eikyou" meaning="effect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="響き" kana="ひびき" romaji="hibiki" meaning="echo" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="40" char="獲" meaning="acquire">
+    <keyword word="獲物" kana="えもの" romaji="emono" meaning="prey" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="獲得" kana="かくとく" romaji="kakutoku" meaning="acquisition" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="40" char="狩" meaning="hunt">
+    <keyword word="狩る" kana="かる" romaji="karu" meaning="hunt" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="狩蜂" kana="かりばち" romaji="karibachi" meaning="wasp" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="狩猟" kana="しゅりょう" romaji="shuryou" meaning="hunting" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="40" char="鉛" meaning="lead">
+    <keyword word="鉛筆" kana="えんぴつ" romaji="enpitsu" meaning="pencil" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="鉛" kana="なまり" romaji="namari" meaning="lead (metal)" />
+  </kanji>
+  <kanji level="30" char="忌" meaning="abhorrent">
+    <keyword word="一回忌" kana="いっかいき" romaji="ikkaiki" meaning="first death anniversary" kanaHighlightStart="4" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="2" />
+    <keyword word="禁忌" kana="きんき" romaji="kinki" meaning="contraindication" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
+    <keyword word="忌まわしい" kana="いまわしい" romaji="imawashii" meaning="monstrous" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="30" char="腕" meaning="arm">
+    <keyword word="腕" kana="うで" romaji="ude" meaning="arm" />
+    <keyword word="腕時計" kana="うでどけい" romaji="udedokei" meaning="wristwatch" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="30" char="潤" meaning="moisture">
+    <keyword word="潤い" kana="うるおい" romaji="uruoi" meaning="moisture" />
+    <keyword word="潤滑" kana="じゅんかつ" romaji="junkatsu" meaning="lubricant" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="30" char="閲" meaning="inspection">
+    <keyword word="閲覧" kana="えつらん" romaji="etsuran" meaning="inspection" />
+    <keyword word="検閲" kana="けんえつ" romaji="kenetsu" meaning="examination" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="30" char="宴" meaning="party, large meal">
+    <keyword word="宴会" kana="えんかい" romaji="enkai" meaning="party, large meal" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="宴" kana="うたげ" romaji="utage" meaning="banquet" />
+  </kanji>
+  <kanji level="30" char="隔" meaning="distance">
+    <keyword word="遠隔" kana="えんかく" romaji="enkaku" meaning="remote" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="4" />
+    <keyword word="間隔" kana="かんかく" romaji="kankaku" meaning="interval" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="4" />
+    <keyword word="隔てる" kana="へだてる" romaji="hedateru" meaning="to isolate" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="30" char="炎" meaning="immflamation">
+    <keyword word="炎症" kana="えんしょう" romaji="enshou" meaning="inflammation" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="歯肉炎" kana="しにくえん" romaji="shinikuen" meaning="gum disease" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="7" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="30" char="欧" meaning="Europe">
+    <keyword word="欧州" kana="おうしゅう" romaji="oushuu" meaning="Europe" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="欧米" kana="おうべい" romaji="oubei" meaning="Europe and America" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="30" char="殴" meaning="strike">
+    <keyword word="殴打" kana="おうだ" romaji="ouda" meaning="strike" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="横殴り" kana="よこなぐり" romaji="yokonaguri" meaning="side blow" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="4" />
+    <keyword word="殴り書き" kana="なぐりがき" romaji="nagurigaki" meaning="scribble" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="30" char="嬢" meaning="young girl">
+    <keyword word="お嬢さん" kana="おじょうさん" romaji="ojousan" meaning="your daughter (honorific)" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="1" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="30" char="愚" meaning="foolish">
+    <keyword word="愚か" kana="おろか" romaji="oroka" meaning="foolish" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="愚かしい" kana="おろかしい" romaji="orokashii" meaning="foolish" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="愚痴" kana="ぐち" romaji="guchi" meaning="drivel" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="25" char="缶" meaning="can">
+    <keyword word="空き缶" kana="あきかん" romaji="akikan" meaning="empty can" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+    <keyword word="缶詰" kana="かんづめ" romaji="kandsume" meaning="canned goods" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="25" char="碁" meaning="Go (board game)">
+    <keyword word="囲碁" kana="いご" romaji="igo" meaning="Go" kanaHighlightStart="1" kanaHighlightLength="1" romajiHighlightStart="1" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="25" char="襟" meaning="collar">
+    <keyword word="襟" kana="えり" romaji="eri" meaning="collar" />
+  </kanji>
+  <kanji level="25" char="偽" meaning="fake">
+    <keyword word="偽物" kana="にせもの" romaji="nisemono" meaning="counterfeit" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="真偽" kana="しんぎ" romaji="shingi" meaning="authenticity" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="4" romajiHighlightLength="2" />
+    <keyword word="偽情報" kana="にせじょうほう" romaji="nisejouhou" meaning="disinformation" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="偽る" kana="いつわる" romaji="itsuwaru" meaning="to lie/cheat" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
+  </kanji>
+  <kanji level="25" char="懐" meaning="pocket torch">
+    <keyword word="懐中電灯" kana="かいちゅうでんとう" romaji="kaichuudentou" meaning="pocket torch" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="懐かしい" kana="なつかしい" romaji="natsukashii" meaning="inducing feelings of nostalgia" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
+    <keyword word="懐" kana="ふところ" romaji="futokoro" meaning="breast pocket" />
+  </kanji>
+  <kanji level="25" char="且" meaning="and">
+    <keyword word="且つ" kana="かつ" romaji="katsu" meaning="and" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="25" char="稼" meaning="work">
+    <keyword word="稼働" kana="かどう" romaji="kadou" meaning="operation (of machinery)" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="稼ぐ" kana="かせぐ" romaji="kasegu" meaning="to earn income" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="25" char="寡" meaning="widow">
+    <keyword word="寡婦" kana="かふ" romaji="kafu" meaning="widow" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="寡占" kana="かせん" romaji="kasen" meaning="oligopoly" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="25" char="粧" meaning="cosmetics">
+    <keyword word="化粧室" kana="けしょうしつ" romaji="keshoushitsu" meaning="rest rooms" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="4" />
+    <keyword word="化粧" kana="けしょう" romaji="keshou" meaning="cosmetics" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="25" char="患" meaning="affliction">
+    <keyword word="患者" kana="かんじゃ" romaji="kanja" meaning="patient" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="患う" kana="わずらう" romaji="wazurau" meaning="to suffer from" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
+  </kanji>
+  <kanji level="25" char="鈴" meaning="small bell">
+    <keyword word="鈴虫" meaning="cricket (insect)" kana="すずむし" romaji="suzumushi" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="鈴木" meaning="Suzuki (surname)" kana="すずき" romaji="suzuki" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="電鈴" meaning="electric bell" kana="でんれい" romaji="denrei" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="20" char="挨" meaning="greeting">
+    <keyword word="挨拶" kana="あいさつ" romaji="aisatsu" meaning="greeting" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="20" char="宛" meaning="address">
+    <keyword word="宛先" kana="あてさき" romaji="atesaki" meaning="addressee" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="20" char="嵐" meaning="storm">
+    <keyword word="嵐" kana="あらし" romaji="arashi" meaning="storm" />
+    <keyword word="大嵐" kana="おおあらし" romaji="ooarashi" meaning="raging storm" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="6" />
+    <keyword word="砂嵐" kana="すなあらし" romaji="sunaarashi" meaning="sandstorm" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="4" romajiHighlightLength="6" />
+  </kanji>
+  <kanji level="20" char="艶" meaning="glossy">
+    <keyword word="艶めかしい" kana="なまめかしい" romaji="namamekashii" meaning="bewitching" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+    <keyword word="艶出し" kana="つやだし" romaji="tsuyadashi" meaning="polishing" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="20" char="岡" meaning="hill">
+    <keyword word="福岡" kana="ふくおか" romaji="fukuoka" meaning="Fukuoka (place name)" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+    <keyword word="静岡" kana="しずおか" romaji="shizuoka" meaning="Shizuoka (place name)" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="20" char="潰" meaning="smash">
+    <keyword word="潰す" kana="つぶす" romaji="tsubusu" meaning="to smash/crush" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
+    <keyword word="倒潰" kana="とうかい" romaji="toukai" meaning="collapse" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="3" />
+    <keyword word="潰える" kana="ついえる" romaji="tsuieru" meaning="to exhaust (use up)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="20" char="崖" meaning="cliff">
+    <keyword word="崖" kana="がけ" romaji="gake" meaning="cliff" />
+    <keyword word="海食崖" kana="かいしょくがい" romaji="kaishokugai" meaning="sea cliff" kanaHighlightStart="5" kanaHighlightLength="2" romajiHighlightStart="8" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="20" char="蓋" meaning="lid">
+    <keyword word="蓋" kana="ふた" romaji="futa" meaning="lid" />
+    <keyword word="蓋然性" kana="がいぜんせい" romaji="gaizensei" meaning="probability" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="20" char="柿" meaning="Japanese persimmon">
+    <keyword word="柿" kana="かき" romaji="kaki" meaning="Japanese persimmon" />
+  </kanji>
+  <kanji level="20" char="顎" meaning="jaw">
+    <keyword word="顎" kana="あご" romaji="ago" meaning="jaw" />
+    <keyword word="顎骨" kana="がっこつ" romaji="gakkotsu" meaning="jawbone" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="15" char="杏" meaning="apricot">
+    <keyword word="杏子" kana="あんず" romaji="anzu" meaning="apricot" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="15" char="伊" meaning="phonetic I">
+    <keyword word="伊藤" kana="いとう" romaji="itou" meaning="Itou (surname)" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="伊勢丹" kana="いせたん" romaji="isetan" meaning="Isetan (company name)" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="15" char="粥" meaning="rice porridge">
+    <keyword word="粥" kana="かゆ" romaji="kayu" meaning="rice porridge" />
+  </kanji>
+  <kanji level="15" char="烏" meaning="crow">
+    <keyword word="烏" kana="からす" romaji="karasu" meaning="crow" />
+    <keyword word="烏麦" kana="からすむぎ" romaji="karasumugi" meaning="oats" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="6" />
+  </kanji>
+  <kanji level="15" char="胡" meaning="foreign">
+    <keyword word="胡椒" kana="こしょう" romaji="koshou" meaning="pepper" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="胡瓜" kana="きゅうり" romaji="kyuuri" meaning="cucumber" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="15" char="迂" meaning="roundabout route">
+    <keyword word="迂回路" kana="うかいろ" romaji="ukairo" meaning="detour" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+    <keyword word="迂遠" kana="うえん" romaji="uen" meaning="roundabout/devious" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="1" />
+  </kanji>
+  <kanji level="15" char="苑" meaning="garden">
+    <keyword word="外苑" kana="がいえん" romaji="gaien" meaning="outer gardens" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+    <keyword word="御苑" kana="ぎょえん" romaji="gyoen" meaning="Imperial gardens" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="2" />
+  </kanji>
+  <kanji level="15" char="鴎" meaning="seagull">
+    <keyword word="鴎" kana="かもめ" romaji="kamome" meaning="seagull" />
+    <keyword word="百合鴎" kana="ゆりかもめ" romaji="yurikamome" meaning="black-headed gull" />
+  </kanji>
+  <kanji level="15" char="鴨" meaning="duck">
+    <keyword word="家鴨" kana="あひる" romaji="ahiru" meaning="domestic duck" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
+    <keyword word="鴨" kana="かも" romaji="kamo" meaning="duck" />
+    <keyword word="真鴨" kana="まがも" romaji="magamo" meaning="mallard" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="2" romajiHighlightLength="4" />
+  </kanji>
+  <kanji level="15" char="葵" meaning="hollyhock">
+    <keyword word="山葵" kana="わさび" romaji="wasabi" meaning="wasabi" kanaHighlightStart="0" kanaHighlightLength="0" romajiHighlightStart="0" romajiHighlightLength="0" />
+    <keyword word="花葵" kana="はなあおい" romaji="hanaaoi" meaning="hollyhock" kanaHighlightStart="2" kanaHighlightLength="3" romajiHighlightStart="4" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="15" char="鷲" meaning="eagle">
+    <keyword word="鷲" kana="わし" romaji="washi" meaning="eagle" />
+    <keyword word="犬鷲" kana="いぬわし" romaji="inuwashi" meaning="golden eagle" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
+    <keyword word="白頭鷲" kana="はくとうわし" romaji="hakutouwashi" meaning="bald eagle" kanaHighlightStart="4" kanaHighlightLength="2" romajiHighlightStart="7" romajiHighlightLength="5" />
+  </kanji>
+  <kanji level="15" char="箆" meaning="spatula">
+    <keyword word="靴箆" kana="くつべら" romaji="kutsubera" meaning="shoehorn" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="4" />
+    <keyword word="箆" kana="へら" romaji="hera" meaning="spatula" />
+  </kanji>
+  <kanji level="10" char="苺" meaning="strawberry">
+    <keyword word="苺" kana="いちご" romaji="ichigo" meaning="strawberry" />
+    <keyword word="木苺" kana="きいちご" romaji="kiichigo" meaning="raspberry" kanaHighlightStart="1" kanaHighlightLength="3" romajiHighlightStart="2" romajiHighlightLength="6" />
+  </kanji>
+  <kanji level="10" char="鼾" meaning="snore">
+    <keyword word="鼾" kana="いびき" romaji="ibiki" meaning="snore" />
+  </kanji>
+  <kanji level="10" char="嗽" meaning="gargle">
+    <keyword word="嗽" kana="うがい" romaji="ugai" meaning="gargle" />
+  </kanji>
+  <kanji level="10" char="黴" meaning="mold">
+    <keyword word="黴" kana="かび" romaji="kabi" meaning="mold" />
+    <keyword word="黴菌" kana="ばいきん" romaji="baikin" meaning="germs" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+  </kanji>
+  <kanji level="10" char="鋏" meaning="scissors">
+    <keyword word="鋏" kana="はさみ" romaji="hasami" meaning="scissors" />
+  </kanji>
+  <kanji level="10" char="薔" meaning="rose">
+    <keyword word="薔薇" kana="ばら" romaji="bara" meaning="rose" />
+  </kanji>
+  <kanji level="10" char="薇" meaning="rose">
+    <keyword word="薔薇" kana="ばら" romaji="bara" meaning="rose" />
+  </kanji>
+  <kanji level="10" char="檸" meaning="lemon">
+    <keyword word="檸檬" kana="れもん" romaji="remon" meaning="lemon" />
   </kanji>
 </kanjiinfo>

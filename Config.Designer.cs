@@ -61,7 +61,7 @@
             this.checkBox90.Location = new System.Drawing.Point(33, 50);
             this.checkBox90.Name = "checkBox90";
             this.checkBox90.Size = new System.Drawing.Size(61, 16);
-            this.checkBox90.TabIndex = 0;
+            this.checkBox90.TabIndex = 4;
             this.checkBox90.Tag = "90";
             this.checkBox90.Text = "Level 9";
             this.checkBox90.UseVisualStyleBackColor = true;
@@ -73,7 +73,7 @@
             this.checkBox10.Location = new System.Drawing.Point(365, 72);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(61, 16);
-            this.checkBox10.TabIndex = 1;
+            this.checkBox10.TabIndex = 11;
             this.checkBox10.Tag = "10";
             this.checkBox10.Text = "Level 1";
             this.checkBox10.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@
             this.checkBox80.Location = new System.Drawing.Point(33, 72);
             this.checkBox80.Name = "checkBox80";
             this.checkBox80.Size = new System.Drawing.Size(61, 16);
-            this.checkBox80.TabIndex = 2;
+            this.checkBox80.TabIndex = 8;
             this.checkBox80.Tag = "80";
             this.checkBox80.Text = "Level 8";
             this.checkBox80.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.checkBox15.Location = new System.Drawing.Point(365, 50);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(69, 16);
-            this.checkBox15.TabIndex = 3;
+            this.checkBox15.TabIndex = 7;
             this.checkBox15.Tag = "15";
             this.checkBox15.Text = "Level 1.5";
             this.checkBox15.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             this.checkBox20.Location = new System.Drawing.Point(365, 28);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(61, 16);
-            this.checkBox20.TabIndex = 4;
+            this.checkBox20.TabIndex = 3;
             this.checkBox20.Tag = "20";
             this.checkBox20.Text = "Level 2";
             this.checkBox20.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.checkBox25.Location = new System.Drawing.Point(255, 72);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(69, 16);
-            this.checkBox25.TabIndex = 5;
+            this.checkBox25.TabIndex = 10;
             this.checkBox25.Tag = "25";
             this.checkBox25.Text = "Level 2.5";
             this.checkBox25.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@
             this.checkBox40.Location = new System.Drawing.Point(255, 28);
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(61, 16);
-            this.checkBox40.TabIndex = 7;
+            this.checkBox40.TabIndex = 2;
             this.checkBox40.Tag = "40";
             this.checkBox40.Text = "Level 4";
             this.checkBox40.UseVisualStyleBackColor = true;
@@ -157,7 +157,7 @@
             this.checkBox50.Location = new System.Drawing.Point(149, 72);
             this.checkBox50.Name = "checkBox50";
             this.checkBox50.Size = new System.Drawing.Size(61, 16);
-            this.checkBox50.TabIndex = 8;
+            this.checkBox50.TabIndex = 9;
             this.checkBox50.Tag = "50";
             this.checkBox50.Text = "Level 5";
             this.checkBox50.UseVisualStyleBackColor = true;
@@ -169,7 +169,7 @@
             this.checkBox60.Location = new System.Drawing.Point(149, 50);
             this.checkBox60.Name = "checkBox60";
             this.checkBox60.Size = new System.Drawing.Size(61, 16);
-            this.checkBox60.TabIndex = 9;
+            this.checkBox60.TabIndex = 5;
             this.checkBox60.Tag = "60";
             this.checkBox60.Text = "Level 6";
             this.checkBox60.UseVisualStyleBackColor = true;
@@ -181,7 +181,7 @@
             this.checkBox70.Location = new System.Drawing.Point(149, 28);
             this.checkBox70.Name = "checkBox70";
             this.checkBox70.Size = new System.Drawing.Size(61, 16);
-            this.checkBox70.TabIndex = 10;
+            this.checkBox70.TabIndex = 1;
             this.checkBox70.Tag = "70";
             this.checkBox70.Text = "Level 7";
             this.checkBox70.UseVisualStyleBackColor = true;
@@ -193,7 +193,7 @@
             this.checkBox100.Location = new System.Drawing.Point(33, 28);
             this.checkBox100.Name = "checkBox100";
             this.checkBox100.Size = new System.Drawing.Size(67, 16);
-            this.checkBox100.TabIndex = 11;
+            this.checkBox100.TabIndex = 0;
             this.checkBox100.Tag = "100";
             this.checkBox100.Text = "Level 10";
             this.checkBox100.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             this.label1.Location = new System.Drawing.Point(31, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 12);
-            this.label1.TabIndex = 13;
+            this.label1.TabIndex = 50;
             this.label1.Text = "Include Kanjis:";
             // 
             // label2
@@ -220,7 +220,7 @@
             this.label2.Location = new System.Drawing.Point(31, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 12);
-            this.label2.TabIndex = 15;
+            this.label2.TabIndex = 50;
             this.label2.Text = "Exclude Kanjis:";
             // 
             // excludeKanjis
@@ -228,16 +228,16 @@
             this.excludeKanjis.Location = new System.Drawing.Point(33, 177);
             this.excludeKanjis.Name = "excludeKanjis";
             this.excludeKanjis.Size = new System.Drawing.Size(401, 19);
-            this.excludeKanjis.TabIndex = 14;
+            this.excludeKanjis.TabIndex = 13;
             // 
             // fontCombo
             // 
             this.fontCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontCombo.FormattingEnabled = true;
-            this.fontCombo.Location = new System.Drawing.Point(34, 269);
+            this.fontCombo.Location = new System.Drawing.Point(34, 250);
             this.fontCombo.Name = "fontCombo";
             this.fontCombo.Size = new System.Drawing.Size(400, 20);
-            this.fontCombo.TabIndex = 16;
+            this.fontCombo.TabIndex = 14;
             this.fontCombo.SelectedIndexChanged += new System.EventHandler(this.fontCombo_SelectedIndexChanged);
             // 
             // label3
@@ -246,17 +246,17 @@
             this.label3.Location = new System.Drawing.Point(32, 219);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 12);
-            this.label3.TabIndex = 17;
+            this.label3.TabIndex = 50;
             this.label3.Text = "Font:";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(34, 343);
+            this.button1.Location = new System.Drawing.Point(34, 326);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 23);
-            this.button1.TabIndex = 20;
+            this.button1.TabIndex = 16;
             this.button1.Text = "Apply";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -265,10 +265,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(255, 343);
+            this.button2.Location = new System.Drawing.Point(255, 326);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 23);
-            this.button2.TabIndex = 21;
+            this.button2.TabIndex = 17;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -281,20 +281,20 @@
             this.label4.Location = new System.Drawing.Point(200, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 24);
-            this.label4.TabIndex = 20;
+            this.label4.TabIndex = 50;
             this.label4.Text = "漢字";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // trackBar1
             // 
             this.trackBar1.LargeChange = 200;
-            this.trackBar1.Location = new System.Drawing.Point(38, 295);
+            this.trackBar1.Location = new System.Drawing.Point(38, 278);
             this.trackBar1.Maximum = 30000;
             this.trackBar1.Minimum = 400;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(323, 45);
             this.trackBar1.SmallChange = 50;
-            this.trackBar1.TabIndex = 18;
+            this.trackBar1.TabIndex = 15;
             this.trackBar1.TickFrequency = 200;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             this.trackBar1.Value = 5000;
@@ -302,7 +302,7 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(377, 306);
+            this.label5.Location = new System.Drawing.Point(377, 289);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 23);
             this.label5.TabIndex = 19;
@@ -313,10 +313,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(479, 392);
+            this.ClientSize = new System.Drawing.Size(479, 373);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.trackBar1);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -337,6 +336,7 @@
             this.Controls.Add(this.checkBox80);
             this.Controls.Add(this.checkBox10);
             this.Controls.Add(this.checkBox90);
+            this.Controls.Add(this.label4);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
