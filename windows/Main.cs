@@ -58,6 +58,7 @@ namespace KanjiScreenSaver
         const int meaningFontHeight = 20;
         const int keywordFontHeight = 14;
         Label[] labels = new Label[keywordParts * maxKeywords];
+        int fontFactor = 1;
 
         #region Constructors
 
@@ -99,6 +100,7 @@ namespace KanjiScreenSaver
             this.Location = new Point(0, 0);
 
             IsPreviewMode = true;
+            fontFactor = 2;
             LoadKanjisAndStartTimer();
         }
 
@@ -120,10 +122,11 @@ namespace KanjiScreenSaver
 
         public void LoadKanjisAndStartTimer()
         {
-            fontKanji = new Font(Program.fontFaceName, kanjiFontHeight);
-            fontMeaning = new Font(Program.fontName, meaningFontHeight, FontStyle.Bold);
-            fontKeywordNormal = new Font(Program.fontName, keywordFontHeight, FontStyle.Regular);
-            fontKeywordBold = new Font(Program.fontName, keywordFontHeight, FontStyle.Bold);
+            int fontFactor = IsPreviewMode ? 2 : 1;
+            fontKanji = new Font(Program.fontFaceName, kanjiFontHeight/fontFactor);
+            fontMeaning = new Font(Program.fontName, meaningFontHeight / fontFactor, FontStyle.Bold);
+            fontKeywordNormal = new Font(Program.fontName, keywordFontHeight / fontFactor, FontStyle.Regular);
+            fontKeywordBold = new Font(Program.fontName, keywordFontHeight / fontFactor, FontStyle.Bold);
 
             labelKanji.Font = fontKanji;
             labelMeaning.Font = fontMeaning;
@@ -227,8 +230,7 @@ namespace KanjiScreenSaver
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //currentKanji = rnd.Next(kanjis.Count);
-            currentKanji = (currentKanji + 1) % kanjis.Count;
+            currentKanji = rnd.Next(kanjis.Count);
             Kanji kanji = kanjis[currentKanji];
             height = 0;
             width = 0;
@@ -266,8 +268,13 @@ namespace KanjiScreenSaver
             for (int nIndx = 0; nIndx < labels.Count(); nIndx++) {
                 labels[nIndx].Visible = nIndx < iControl;
             }
-            xOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Width - 40 - (int)width);
-            yOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Height - 40 - (int)height);
+            if (!IsPreviewMode) {
+                xOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Width - 40 - (int)width);
+                yOffset = 20 + rnd.Next(Screen.PrimaryScreen.Bounds.Height - 40 - (int)height);
+            } else {
+                xOffset = (Size.Width-(int)width)/2;
+                yOffset = 0;
+            }
             iControl = 0;
             float drawYOffset = yOffset;
             labelKanji.Top = (int)drawYOffset;
@@ -284,7 +291,7 @@ namespace KanjiScreenSaver
                     labels[iControl].Top = (int)(drawYOffset);
                     labels[iControl].Left = (int)(keywordPartOffset);
                     labels[iControl].BringToFront();
-                    keywordPartOffset += labels[iControl].Width - 6.0f;
+                    keywordPartOffset += labels[iControl].Width - (6.0f/fontFactor);
                     iControl++;
                 }
                 drawYOffset += keywordHeight;

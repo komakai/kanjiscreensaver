@@ -80,7 +80,7 @@
     <keyword word="一時停止" kana="いちじていし" romaji="ichijiteishi" meaning="pause" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="6" romajiHighlightLength="3" />
     <keyword word="中止" kana="ちゅうし" romaji="chuushi" meaning="suspend" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
   </kanji>
-  <kanji level="90" char="切" meaning="sold out">
+  <kanji level="90" char="切" meaning="cut">
     <keyword word="売り切り" kana="うりきり" romaji="urikiri" meaning="sold out" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
     <keyword word="切断" kana="せつだん" romaji="setsudan" meaning="disconnect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
     <keyword word="切り取り" kana="きりとり" romaji="kiritori" meaning="cut" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />

@@ -656,9 +656,8 @@
             this.labelMeaning.ForeColor = System.Drawing.Color.White;
             this.labelMeaning.Location = new System.Drawing.Point(115, 124);
             this.labelMeaning.Name = "labelMeaning";
-            this.labelMeaning.Size = new System.Drawing.Size(28, 19);
+            this.labelMeaning.Size = new System.Drawing.Size(0, 19);
             this.labelMeaning.TabIndex = 51;
-            this.labelMeaning.Text = "亜";
             // 
             // Main
             // 

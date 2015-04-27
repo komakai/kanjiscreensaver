@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B900601AECF17200D70C11 /* kanji.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08B9005F1AECF17200D70C11 /* kanji.xml */; };
+		08B900631AECF1B100D70C11 /* Kanji.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B900611AECF1B100D70C11 /* Kanji.h */; };
+		08B900641AECF1B100D70C11 /* Kanji.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B900621AECF1B100D70C11 /* Kanji.m */; };
+		08B900671AECF1C400D70C11 /* KanjiScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B900651AECF1C400D70C11 /* KanjiScreenSaverView.h */; };
+		08B900681AECF1C400D70C11 /* KanjiScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B900661AECF1C400D70C11 /* KanjiScreenSaverView.m */; };
+		08B9006A1AECF1D300D70C11 /* Config.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B900691AECF1D300D70C11 /* Config.xib */; };
+		08B9006D1AED2A4100D70C11 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B9006B1AED2A4100D70C11 /* thumbnail.png */; };
+		08B9006E1AED2A4100D70C11 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B9006C1AED2A4100D70C11 /* thumbnail@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08B900511AECEFBA00D70C11 /* KanjiScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B900551AECEFBA00D70C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B9005F1AECF17200D70C11 /* kanji.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kanji.xml; sourceTree = "<group>"; };
+		08B900611AECF1B100D70C11 /* Kanji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kanji.h; sourceTree = "<group>"; };
+		08B900621AECF1B100D70C11 /* Kanji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kanji.m; sourceTree = "<group>"; };
+		08B900651AECF1C400D70C11 /* KanjiScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiScreenSaverView.h; sourceTree = "<group>"; };
+		08B900661AECF1C400D70C11 /* KanjiScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiScreenSaverView.m; sourceTree = "<group>"; };
+		08B900691AECF1D300D70C11 /* Config.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Config.xib; sourceTree = "<group>"; };
+		08B9006B1AED2A4100D70C11 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		08B9006C1AED2A4100D70C11 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B9004D1AECEFBA00D70C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B900471AECEFBA00D70C11 = {
+			isa = PBXGroup;
+			children = (
+				08B900531AECEFBA00D70C11 /* KanjiScreenSaver */,
+				08B900521AECEFBA00D70C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B900521AECEFBA00D70C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B900511AECEFBA00D70C11 /* KanjiScreenSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B900531AECEFBA00D70C11 /* KanjiScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				08B9006B1AED2A4100D70C11 /* thumbnail.png */,
+				08B9006C1AED2A4100D70C11 /* thumbnail@2x.png */,
+				08B900691AECF1D300D70C11 /* Config.xib */,
+				08B900651AECF1C400D70C11 /* KanjiScreenSaverView.h */,
+				08B900661AECF1C400D70C11 /* KanjiScreenSaverView.m */,
+				08B900611AECF1B100D70C11 /* Kanji.h */,
+				08B900621AECF1B100D70C11 /* Kanji.m */,
+				08B900541AECEFBA00D70C11 /* Supporting Files */,
+			);
+			path = KanjiScreenSaver;
+			sourceTree = "<group>";
+		};
+		08B900541AECEFBA00D70C11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B9005F1AECF17200D70C11 /* kanji.xml */,
+				08B900551AECEFBA00D70C11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08B9004E1AECEFBA00D70C11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B900631AECF1B100D70C11 /* Kanji.h in Headers */,
+				08B900671AECF1C400D70C11 /* KanjiScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08B900501AECEFBA00D70C11 /* KanjiScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B9005C1AECEFBA00D70C11 /* Build configuration list for PBXNativeTarget "KanjiScreenSaver" */;
+			buildPhases = (
+				08B9004C1AECEFBA00D70C11 /* Sources */,
+				08B9004D1AECEFBA00D70C11 /* Frameworks */,
+				08B9004E1AECEFBA00D70C11 /* Headers */,
+				08B9004F1AECEFBA00D70C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiScreenSaver;
+			productName = KanjiScreenSaver;
+			productReference = 08B900511AECEFBA00D70C11 /* KanjiScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B900481AECEFBA00D70C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Giles Payne";
+				TargetAttributes = {
+					08B900501AECEFBA00D70C11 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 08B9004B1AECEFBA00D70C11 /* Build configuration list for PBXProject "KanjiScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08B900471AECEFBA00D70C11;
+			productRefGroup = 08B900521AECEFBA00D70C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B900501AECEFBA00D70C11 /* KanjiScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B9004F1AECEFBA00D70C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B900601AECF17200D70C11 /* kanji.xml in Resources */,
+				08B9006E1AED2A4100D70C11 /* thumbnail@2x.png in Resources */,
+				08B9006A1AECF1D300D70C11 /* Config.xib in Resources */,
+				08B9006D1AED2A4100D70C11 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B9004C1AECEFBA00D70C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B900681AECF1C400D70C11 /* KanjiScreenSaverView.m in Sources */,
+				08B900641AECF1B100D70C11 /* Kanji.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08B9005A1AECEFBA00D70C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08B9005B1AECEFBA00D70C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		08B9005D1AECEFBA00D70C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KanjiScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		08B9005E1AECEFBA00D70C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KanjiScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B9004B1AECEFBA00D70C11 /* Build configuration list for PBXProject "KanjiScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B9005A1AECEFBA00D70C11 /* Debug */,
+				08B9005B1AECEFBA00D70C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B9005C1AECEFBA00D70C11 /* Build configuration list for PBXNativeTarget "KanjiScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B9005D1AECEFBA00D70C11 /* Debug */,
+				08B9005E1AECEFBA00D70C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B900481AECEFBA00D70C11 /* Project object */;
+}

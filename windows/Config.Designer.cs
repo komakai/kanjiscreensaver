@@ -234,7 +234,7 @@
             // 
             this.fontCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fontCombo.FormattingEnabled = true;
-            this.fontCombo.Location = new System.Drawing.Point(34, 250);
+            this.fontCombo.Location = new System.Drawing.Point(34, 262);
             this.fontCombo.Name = "fontCombo";
             this.fontCombo.Size = new System.Drawing.Size(400, 20);
             this.fontCombo.TabIndex = 14;
@@ -253,7 +253,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(34, 326);
+            this.button1.Location = new System.Drawing.Point(34, 338);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 23);
             this.button1.TabIndex = 16;
@@ -265,7 +265,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(255, 326);
+            this.button2.Location = new System.Drawing.Point(255, 338);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 23);
             this.button2.TabIndex = 17;
@@ -278,7 +278,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS UI Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label4.Location = new System.Drawing.Point(200, 214);
+            this.label4.Location = new System.Drawing.Point(195, 210);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 24);
             this.label4.TabIndex = 50;
@@ -288,7 +288,7 @@
             // trackBar1
             // 
             this.trackBar1.LargeChange = 200;
-            this.trackBar1.Location = new System.Drawing.Point(38, 278);
+            this.trackBar1.Location = new System.Drawing.Point(38, 290);
             this.trackBar1.Maximum = 30000;
             this.trackBar1.Minimum = 400;
             this.trackBar1.Name = "trackBar1";
@@ -302,7 +302,7 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(377, 289);
+            this.label5.Location = new System.Drawing.Point(377, 301);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 23);
             this.label5.TabIndex = 19;
@@ -313,7 +313,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(479, 373);
+            this.ClientSize = new System.Drawing.Size(470, 381);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.button2);

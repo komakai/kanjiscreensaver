@@ -75,25 +75,6 @@ namespace KanjiScreenSaver
                                         IntPtr lParam,
                                         uint dwFlags);
 
-        public class FontComboBoxItem
-        {
-            public string fontName;
-            public string fontFaceName;
-            public int fontWeight;
-            public FontComboBoxItem(string fontName, string fontFaceName, int fontWeight)
-            {
-                this.fontName = fontName;
-                this.fontFaceName = fontFaceName;
-                this.fontWeight = fontWeight;
-            }
-
-            // override ToString() function
-            public override string ToString()
-            {
-                return this.fontFaceName;
-            }
-        }
-
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
         public class LOGFONT
         {
@@ -251,10 +232,9 @@ namespace KanjiScreenSaver
             int cnt = 0;
             try
             {
-                if (lpelfe.elfFullName[0] != '@' && !sysFonts.Contains(lpelfe.elfFullName) && lpelfe.elfLogFont.lfFaceName[0] != '@' )
+                if (lpelfe.elfFullName[0] != '@' && !sysFonts.Contains(lpelfe.elfFullName) && lpelfe.elfLogFont.lfFaceName[0] != '@' && lpelfe.elfLogFont.lfWeight == FontWeight.FW_NORMAL)
                 {
-                    FontComboBoxItem fontItem = new FontComboBoxItem(lpelfe.elfFullName, lpelfe.elfLogFont.lfFaceName, (int)lpelfe.elfLogFont.lfWeight);
-                    fontCombo.Items.Add(fontItem);
+                    fontCombo.Items.Add(lpelfe.elfLogFont.lfFaceName);
                 }
                 cnt = 1;
             }
@@ -289,8 +269,7 @@ namespace KanjiScreenSaver
         private void fontCombo_SelectedIndexChanged(object sender, EventArgs e)
         {
             ComboBox comboBox = (ComboBox) sender;
-            FontComboBoxItem fontItem = (FontComboBoxItem)comboBox.SelectedItem;
-            label4.Font = new Font(fontItem.fontFaceName, label4.Font.Size);
+            label4.Font = new Font((string)comboBox.SelectedItem, label4.Font.Size);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -315,8 +294,7 @@ namespace KanjiScreenSaver
             regKey.SetValue("Levels", levelSetting, RegistryValueKind.String);
             regKey.SetValue("IncludeKanjis", includeKanjis.Text, RegistryValueKind.String);
             regKey.SetValue("ExcludeKanjis", excludeKanjis.Text, RegistryValueKind.String);
-            regKey.SetValue("FontName", ((FontComboBoxItem)(fontCombo.SelectedItem)).fontName, RegistryValueKind.String);
-            regKey.SetValue("FontFaceName", ((FontComboBoxItem)(fontCombo.SelectedItem)).fontFaceName, RegistryValueKind.String);
+            regKey.SetValue("FontFaceName", (string)(fontCombo.SelectedItem), RegistryValueKind.String);
             regKey.SetValue("Duration", trackBar1.Value, RegistryValueKind.DWord);
             Application.Exit();
         }
