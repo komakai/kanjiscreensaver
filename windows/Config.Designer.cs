@@ -57,6 +57,8 @@
             // checkBox90
             // 
             this.checkBox90.AutoSize = true;
+            this.checkBox90.Checked = true;
+            this.checkBox90.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox90.Enabled = false;
             this.checkBox90.Location = new System.Drawing.Point(33, 50);
             this.checkBox90.Name = "checkBox90";
@@ -189,6 +191,8 @@
             // checkBox100
             // 
             this.checkBox100.AutoSize = true;
+            this.checkBox100.Checked = true;
+            this.checkBox100.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox100.Enabled = false;
             this.checkBox100.Location = new System.Drawing.Point(33, 28);
             this.checkBox100.Name = "checkBox100";

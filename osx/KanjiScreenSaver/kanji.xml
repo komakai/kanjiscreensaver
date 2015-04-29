@@ -14,6 +14,7 @@
     <keyword word="本" kana="ほん" romaji="hon" meaning="book" />
     <keyword word="本当" kana="ほんとう" romaji="hontou" meaning="that is true" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
     <keyword word="絵本" kana="えほん" romaji="ehon" meaning="picture book" kanaHighlightStart="1" kanaHighlightLength="2" romajiHighlightStart="1" romajiHighlightLength="3" />
+    <keyword word="山本" meaning="Yamamoto (surname)" kana="やまもと" romaji="yamamoto" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="4" />
   </kanji>
   <kanji level="100" char="円" meaning="Yen, circle">
     <keyword word="100円" kana="ひゃくえん" romaji="hyakuen" meaning="a hundred yen" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="5" romajiHighlightLength="2" />
@@ -81,9 +82,10 @@
     <keyword word="中止" kana="ちゅうし" romaji="chuushi" meaning="suspend" kanaHighlightStart="0" kanaHighlightLength="3" romajiHighlightStart="0" romajiHighlightLength="4" />
   </kanji>
   <kanji level="90" char="切" meaning="cut">
+    <keyword word="切る" kana="きる" romaji="kiru" meaning="to cut" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
     <keyword word="売り切り" kana="うりきり" romaji="urikiri" meaning="sold out" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
     <keyword word="切断" kana="せつだん" romaji="setsudan" meaning="disconnect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="5" />
-    <keyword word="切り取り" kana="きりとり" romaji="kiritori" meaning="cut" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="切り取り" kana="きりとり" romaji="kiritori" meaning="cut out" kanaHighlightStart="0" kanaHighlightLength="1" romajiHighlightStart="0" romajiHighlightLength="2" />
   </kanji>
   <kanji level="90" char="顔" meaning="face">
     <keyword word="顔" kana="かお" romaji="kao" meaning="face" />
@@ -252,7 +254,7 @@
     <keyword word="受付" kana="うけつけ" romaji="uketsuke" meaning="reception" kanaHighlightStart="2" kanaHighlightLength="2" romajiHighlightStart="3" romajiHighlightLength="5" />
     <keyword word="添付" kana="てんぷ" romaji="tenpu" meaning="attachment" kanaHighlightStart="2" kanaHighlightLength="1" romajiHighlightStart="3" romajiHighlightLength="2" />
   </kanji>
-  <kanji level="70" char="英" meaning="England">
+  <kanji level="70" char="英" meaning="England, excellent">
     <keyword word="英語" kana="えいご" romaji="eigo" meaning="English language" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
     <keyword word="英雄" kana="えいゆう" romaji="eiyuu" meaning="hero" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
   </kanji>
@@ -390,11 +392,12 @@
   <kanji level="40" char="芋" meaning="potato">
     <keyword word="芋ほり" kana="いもほり" romaji="imohori" meaning="digging for potatoes" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
     <keyword word="じゃが芋" kana="じゃがいも" romaji="jagaimo" meaning="potato" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="4" romajiHighlightLength="3" />
+    <keyword word="薩摩芋" kana="さつまいも" romaji="satsumaimo" meaning="sweet potato" kanaHighlightStart="3" kanaHighlightLength="2" romajiHighlightStart="7" romajiHighlightLength="3" />
   </kanji>
   <kanji level="40" char="隠" meaning="hide">
     <keyword word="隠れる" kana="かくれる" romaji="kakureru" meaning="to hide" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
     <keyword word="隠蔽" kana="いんぺい" romaji="inpei" meaning="concealment" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
-    <keyword word="隠遁" kana="いんとん" romaji="inton" meaning="seclusion" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
+    <keyword word="隠れん坊" kana="かくれんぼ" romaji="kakurenbo" meaning="hide and seek(game)" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="4" />
   </kanji>
   <kanji level="40" char="響" meaning="echo, impact">
     <keyword word="影響" kana="えいきょう" romaji="eikyou" meaning="effect" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="2" />
@@ -421,6 +424,7 @@
   <kanji level="30" char="腕" meaning="arm">
     <keyword word="腕" kana="うで" romaji="ude" meaning="arm" />
     <keyword word="腕時計" kana="うでどけい" romaji="udedokei" meaning="wristwatch" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
+    <keyword word="腕相撲" kana="うでうでずもう" romaji="udezumou" meaning="arm wrestling" kanaHighlightStart="0" kanaHighlightLength="2" romajiHighlightStart="0" romajiHighlightLength="3" />
   </kanji>
   <kanji level="30" char="潤" meaning="moisture">
     <keyword word="潤い" kana="うるおい" romaji="uruoi" meaning="moisture" />
