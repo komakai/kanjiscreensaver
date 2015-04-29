@@ -9,9 +9,10 @@ On-readings and Kun-readings have been replaced by a list of keywords that demon
 The grades have been changed to match the Kanji Kentei Exam levels ( refer http://www.kanken.or.jp/ ).
 It is now possible to fine tune which kanjis are displayed via an "Include" list and an "Exclude" list.
 The elapsed time been kanji changes is now configurable.
+An OSX version is now available.
 
 License
-The C# source code for KanjiScreenSaver 2 is public domain and available at (https://github.com/komakai/kanjiscreensaver)
+The C# and Objective-C source code for KanjiScreenSaver 2 is public domain and available at (https://github.com/komakai/kanjiscreensaver)
 The kanji data used in KanjiScreenSaver 2 is copyright me Giles Payne.
 
 Giles Payne (GilesPayne(at)gmail.com)
